@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box;
+    border: 1px solid #ddd; */
+}
+
+.contenedor {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.iconos-all {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-size-medium {
+    font-size: 40px;
+}
+
+.medium-box {
+    width: 150px;
+    height: 150px;
+    color: aqua;
+    background-color: black;
+}
+
+.icon-size-small {
+    font-size: 20px;
+}
+
+.small-box {
+    background: aqua;
+    width: 70px;
+    height: 70px;
+}
