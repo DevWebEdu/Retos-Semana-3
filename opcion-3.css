@@ -1,0 +1,116 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        /* border: 1px solid black; */
+        font-family: 'Lato', sans-serif;
+    }
+    
+    nav>ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 30px;
+        align-items: center;
+        color: white;
+        background-color: rgb(29, 29, 145);
+    }
+    
+    .title {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    main .camera-stock {
+        background-color: rgb(216, 199, 199);
+    }
+    
+    .container {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    
+    .galery-stock {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .subtitle h2 {
+        padding: 50px 0;
+        min-width: 50px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 100;
+    }
+    
+    .card-camera {
+        margin: 10px;
+        width: 350px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around
+    }
+    
+    img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    .text-contain {
+        text-align: center;
+    }
+    
+    .text-contain * {
+        margin: 5px;
+        padding-bottom: 10px;
+    }
+    
+    .text-contain h4 {
+        font-weight: 900;
+    }
+    
+    .status-contain {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 3px 0;
+    }
+    
+    .status-contain span {
+        display: inline-block;
+        border-radius: 10px;
+        padding: 2px;
+        background-color: rgb(224, 170, 170);
+        font-weight: 900;
+    }
+    
+    button {
+        width: 100%;
+        color: white;
+        background-color: green;
+        height: 40px;
+        font-family: 'Lato', sans-serif;
+        font-size: 15px;
+        position: relative;
+    }
+    
+    button i {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+    }
+    
+    @media only screen and (max-width: 480px) {
+        .title {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        nav>ul {
+            font-size: 12px;
+        }
+    }
